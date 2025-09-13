@@ -111,4 +111,6 @@ if bashio::config.has_value logdir_name; then
 else
     echo "> ebusd ${ebusd_args[*]}"
     ebusd ${ebusd_args[*]}
+    echo ">>> address configured: $(bashio::config 'address')"
+
 fi

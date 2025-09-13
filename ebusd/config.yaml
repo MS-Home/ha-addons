@@ -67,3 +67,4 @@ schema:
   lograwdata: "bool?"
   lograwdatafile: "str?"
   lograwdatasize: "int?"
+  address: int

@@ -32,6 +32,7 @@ options:
   mqtttopic: "ebusd"
   mqttint: "/etc/ebusd/mqtt-hassio.cfg"
   mqttjson: true
+  adress: 1
 schema:
   mode: "list(enh|ens|udp)?"
   device: "device(subsystem=tty)?"
